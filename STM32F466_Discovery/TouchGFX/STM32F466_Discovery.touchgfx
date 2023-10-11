@@ -1,0 +1,148 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "screen",
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "key3",
+            "X": 7,
+            "Y": 123,
+            "Width": 66,
+            "Height": 16,
+            "TextId": "__SingleUse_2UBA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Blue": 21
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "key2",
+            "X": 7,
+            "Y": 94,
+            "Width": 69,
+            "Height": 16,
+            "TextId": "__SingleUse_76H1",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Now_Volum",
+            "X": 7,
+            "Y": 64,
+            "Width": 116,
+            "Height": 16,
+            "TextId": "__SingleUse_OEQ2",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 255,
+              "Blue": 225
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_D9LQ",
+              "UseBuffer": true,
+              "BufferSize": 61
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Now_Click_FreTXT",
+            "X": 7,
+            "Y": 12,
+            "Width": 100,
+            "Height": 16,
+            "TextId": "__SingleUse_QA8O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 200
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_7UGL",
+              "UseBuffer": true,
+              "BufferSize": 60
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Now_Sine_FreTXT",
+            "X": 5,
+            "Y": 28,
+            "Width": 104,
+            "Height": 16,
+            "TextId": "__SingleUse_5L4U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 251,
+              "Green": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_DU34",
+              "UseBuffer": true,
+              "BufferSize": 60
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 128,
+      "Height": 160
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "screen",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 128,
+        "Height": 160
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F466_Discovery.ioc --platform=m4",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4"
+  },
+  "Version": "4.18.1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.1">
+  <Texts>
+    <Text Id="__SingleUse_2UBA" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">KEY3：(-)</Translation>
+      <Translation Language="Medium_Title" TypographyId="Default">medium</Translation>
+      <Translation Language="Medium_Text">medium</Translation>
+    </Text>
+    <Text Id="__SingleUse_76H1" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">KEY2：(+)</Translation>
+      <Translation Language="Medium_Title" TypographyId="Default">medium</Translation>
+      <Translation Language="Medium_Text">medium</Translation>
+    </Text>
+    <Text Id="ResourceId1" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">New Text</Translation>
+      <Translation Language="Medium_Title">New Text</Translation>
+      <Translation Language="Medium_Text">New Text</Translation>
+    </Text>
+    <Text Id="__SingleUse_OEQ2" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">当前音量：&lt;value&gt;        </Translation>
+      <Translation Language="Medium_Title" TypographyId="Default">当前音量：&lt;value&gt;</Translation>
+      <Translation Language="Medium_Text">当前音量：&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_D9LQ" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">1</Translation>
+      <Translation Language="Medium_Title">-</Translation>
+      <Translation Language="Medium_Text">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_QA8O" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">click频率:&lt;value&gt;HZ</Translation>
+      <Translation Language="Medium_Title" TypographyId="Default">当前音量：&lt;value&gt;</Translation>
+      <Translation Language="Medium_Text">当前音量：&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_7UGL" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">15</Translation>
+      <Translation Language="Medium_Title">-</Translation>
+      <Translation Language="Medium_Text">-</Translation>
+    </Text>
+    <Text Id="__SingleUse_5L4U" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">正弦波fre:&lt;value&gt;HZ</Translation>
+      <Translation Language="Medium_Title" TypographyId="Default">当前音量：&lt;value&gt;</Translation>
+      <Translation Language="Medium_Text">当前音量：&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_DU34" TypographyId="Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">15</Translation>
+      <Translation Language="Medium_Title">-</Translation>
+      <Translation Language="Medium_Text">-</Translation>
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="2" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="2" FallbackCharacter="?" />
+    <Typography Id="Medium" Font="Dengb.ttf" Size="15" Bpp="2" FallbackCharacter="?" WildcardCharacters="0-9" WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>
